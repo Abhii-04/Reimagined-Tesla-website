@@ -13,6 +13,45 @@ body {
     height: 50px;
 }
 
+#horizontalNavbar {
+    width: 100%;
+    height: 50px;
+    /* Increased height for better visibility */
+    background-color: #eee;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    /* Material design shadow */
+}
+
+.navbar-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #333;
+    /* Text color */
+    font-size: 16px;
+    /* Font size adjusted */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+.navbar-button.active {
+    background-color: #570e0e;
+    color: white;
+    /* Adjust text color when active */
+    border-bottom: 2px solid #570e0e;
+    /* Indicator line */
+}
+
+.navbar-button:hover {
+    background-color: #f0f0f0;
+    /* Light background color on hover */
+}
 .logo {
     color: #fff;
     font-size: 24px;
@@ -109,4 +148,12 @@ model-viewer {
     width: 100%;
     height: 100vh;
     overflow: visible;
+}
+
+#Model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /* Ensure container is above other elements */
 }
