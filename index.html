@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type="module" type="text/javascript"  src="/main.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -24,81 +25,16 @@
     <div class="vid">
         <video src="./Public/Roadster/roadster-loop.mp4" autoplay muted loop></video>
     </div>
-    <div class="container">
-        <div class="model">
-            <div>
-                <model-viewer src="./Public/Roadster/scene.gltf" alt="A 3D model of Roadster" auto-rotate
-                    camera-controls></model-viewer>
-            </div>
-        </div>
-        <div class="content">
-            <div class="description">
-                <div class="text">
 
-                    <h2>MODEL INFO</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ducimus? Ab quisquam quod deserunt at
-                    quis porro. Repudiandae, odit eveniet!</p>
-                </div>
-                <div class="btn">
-                    <button>Learn More</button>
-                    <button>Book Now</button>
-                </div>
 
-            </div>
-            <div class="img1"></div>
-            <div class="img2"></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="model">
-            <div>
-                <model-viewer src="./Public/ModelX/scene.gltf" alt="A 3D model of Roadster" auto-rotate
-                    camera-controls></model-viewer>
-            </div>
-        </div>
-        <div class="content">
-            <div class="description">
-                <div class="text">
+<div id="horizontalNavbar">
+    <button data-model="model1" class="navbar-button active" onclick="changeModel(1)">Tesla Model X</button>
+    <button data-model="model2" class="navbar-button"  onclick="changeModel(2)">Tesla CyberTruck</button>
+    <button data-model="model3" class="navbar-button"  onclick="changeModel(3)">Tesla Roadster</button>
+</div>
 
-                    <h2>MODEL INFO</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ducimus? Ab quisquam quod deserunt at
-                    quis porro. Repudiandae, odit eveniet!</p>
-                </div>
-                <div class="btn">
-                    <button>Learn More</button>
-                    <button>Book Now</button>
-                </div>
+<div id="Model"></div>
 
-            </div>
-            <div class="img1"></div>
-            <div class="img2"></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="model">
-            <div>
-                <model-viewer src="./Public/CyberTruck/scene.gltf" alt="A 3D model of Roadster" auto-rotate
-                    camera-controls></model-viewer>
-            </div>
-        </div>
-        <div class="content">
-            <div class="description">
-                <div class="text">
-
-                    <h2>MODEL INFO</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ducimus? Ab quisquam quod deserunt at
-                    quis porro. Repudiandae, odit eveniet!</p>
-                </div>
-                <div class="btn">
-                    <button>Learn More</button>
-                    <button>Book Now</button>
-                </div>
-
-            </div>
-            <div class="img1"></div>
-            <div class="img2"></div>
-        </div>
-    </div>
     <footer>
 
     </footer>
