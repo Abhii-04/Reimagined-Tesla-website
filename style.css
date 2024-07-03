@@ -191,7 +191,7 @@ header {
 .owl-stage,
 .owl-item-bg,
 .owl-item { 
-  height: calc(100vh - 20px);
+  height: 100vh;
   min-height: 200px;
 }
 
@@ -573,31 +573,29 @@ model-viewer {
 /* ---Container2--- */
 .container2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "model content";
-  height: calc(100vh - 60px); 
-  width: 100vw;
-  overflow-x: hidden;
-  overflow-y: hidden; 
-  padding-top: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
 }
 
 .model2 {
-  grid-area: model;
-  background-color: #242121;
-  overflow: hidden; 
+  width: 100%;
+  height: auto;
 }
 
 .content2 {
-  grid-area: content;
-  background-color: #F0F0F0;
-  display: grid;
-  grid-template-areas: 
-      "text "
-      "img1 ";
-  grid-template-rows: 1fr 1fr;
-  /* grid-template-columns: 1fr 1fr; */
-  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.img2 {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 /* ---Container3--- */
