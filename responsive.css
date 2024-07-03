@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .navbar .menu-btn {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+    .navbar.active .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .nav-links li {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+    .container1, .container2, .container3 {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "model"
+        "content";
+    }
+    .content, .content2, .content3 {
+      grid-template-areas:
+        "text"
+        "img1";
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar .menu-btn {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+    .navbar.active .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .nav-links li {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .container1, .container2, .container3 {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "model"
+        "content";
+    }
+    .content, .content2, .content3 {
+      grid-template-areas:
+        "text"
+        "img1";
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+  
