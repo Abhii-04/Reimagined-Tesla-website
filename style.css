@@ -532,7 +532,7 @@ model-viewer {
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden; 
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .model2 {
@@ -563,7 +563,7 @@ model-viewer {
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden; 
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .model3 {
