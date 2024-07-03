@@ -98,7 +98,7 @@ html,body{
   /* Changed to solid and transparent */
   border-radius: 20px;
   margin: 0px -10px;
-  color: #4B91F7;
+  color: #a5bad8;
   /* Text color */
   background-color: transparent;
   cursor: pointer;
@@ -107,7 +107,7 @@ html,body{
 
 .cir_border:hover,
 .cir_border:focus {
-  background-color: black;
+  background-color: rgb(187, 204, 218);
   /* Change background color on hover or focus */
   color: #fff;
   /* Change text color on hover or focus */
