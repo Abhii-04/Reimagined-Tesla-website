@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tesla Cybertruck
+* source:	https://sketchfab.com/3d-models/tesla-cybertruck-8950fc178e254c9198b2a8555ef1590a
+* author:	TAIGA-ZOE (https://sketchfab.com/TAIGA-ZOE)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tesla Cybertruck" (https://sketchfab.com/3d-models/tesla-cybertruck-8950fc178e254c9198b2a8555ef1590a) by TAIGA-ZOE (https://sketchfab.com/TAIGA-ZOE) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

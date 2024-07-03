@@ -1,110 +1,201 @@
-@media only screen and (max-width: 1280px) {
-    .contain {
-      width: 1200px;
-      margin: 0 auto;
-    }
+/* mobile responsiveness design */
+@media screen and (max-width: 990px) {
+  .contact_us {
+    flex-direction: column;
+    width: 100%;
   }
-  
-  @media only screen and (max-width: 1139px) {
-    .contain .social {
-      width: 1000px;
-      display: block;
-    }
-    .social h1 {
-      margin: 0px;
-    }
+  form,
+  .cbox {
+    margin: auto;
+    margin-bottom: 30px;
   }
-  
-  @media only screen and (max-width: 950px) {
-    .navbar .menu-btn {
-      display: block;
-    }
-    .nav-links {
-      display: none;
-    }
-    .navbar.active .nav-links {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 70px;
-      right: 0;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-    .nav-links li {
-      margin: 20px 0;
-      text-align: center;
-    }
-    .footer .col {
-      width: 33%;
-    }
-    .footer .col h1 {
-      font-size: 14px;
-    }
-    .footer .col ul li {
-      font-size: 13px;
-    }
-    .container1, .container2, .container3 {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "model"
-        "content";
-    }
-    .content, .content2, .content3 {
-      grid-template-areas:
-        "text"
-        "img1";
-    }
+}
+@media screen and (max-width: 1130px) {
+  .menu-btn {
+    display: block;
   }
-  
-  @media only screen and (max-width: 768px) {
-    .navbar .menu-btn {
-      display: block;
-    }
-    .nav-links {
-      display: none;
-    }
-    .navbar.active .nav-links {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 70px;
-      right: 0;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-    .nav-links li {
-      margin: 20px 0;
-      text-align: center;
-    }
-    .container1, .container2, .container3 {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "model"
-        "content";
-    }
-    .content, .content2, .content3 {
-      grid-template-areas:
-        "text"
-        "img1";
-    }
+
+  .navbar {
+    padding: 45px;
   }
-  
-  @media only screen and (max-width: 500px) {
-    .footer .col {
-      width: 50%;
-    }
-    .footer .col h1 {
-      font-size: 14px;
-    }
-    .footer .col ul li {
-      font-size: 13px;
-    }
+
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 15px;
   }
-  
-  @media only screen and (max-width: 340px) {
-    .footer .col {
-      width: 100%;
-    }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background: #484872;
+    margin-top: -900px;
+    transition: all 0.5s ease;
   }
-  
+
+  .mobile-menu {
+    margin-top: 602px;
+    border-bottom-right-radius: 30%;
+  }
+
+  .nav-links li {
+    margin: 30px auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .containerx {
+    top: 40%;
+    bottom: 40%;
+    transform-style: preserve-3d;
+  }
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    .slide>img{
+        height: 300px; /* Adjust height dynamically */
+        width: 100%;  /* Adjust width to fill container */
+        max-width: 100%; /* Ensure image does not exceed its original size */
+    }
+
+    @media only screen and (max-width: 767px) {
+        /* For Container 1 */
+        .container1 {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto;
+        }
+      
+        .model {
+          width: 100%;
+          height: auto;
+        }
+      
+        .content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .text {
+          text-align: center;
+        }
+      
+        .img1 {
+          width: 100%;
+          height: auto;
+          margin-top: 20px;
+        }
+      
+        /* For Container 2 */
+        .container2 {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto;
+        }
+      
+        .model2 {
+          width: 100%;
+          height: auto;
+        }
+      
+        .content2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .text2 {
+          text-align: center;
+        }
+      
+        .img2 {
+          width: 100%;
+          height: auto;
+          margin-top: 20px;
+        }
+      
+        /* For Container 3 */
+        .container3 {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto;
+        }
+      
+        .model3 {
+          width: 100%;
+          height: auto;
+        }
+      
+        .content3 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .text3 {
+            text-align: center;
+          }
+        
+          .img3 {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+          }
+    }
+    
+      
+
+   
+
+    .btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 0.8rem; /* Adjust button font size */
+    }
+
+    /* Default footer layout */
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Adjustments for screens smaller than 768px */
+    @media (max-width: 768px) {
+        .footer {
+            flex-direction: column; /* Stack footer items in a column */
+        }
+
+        .footer .contain {
+            display: flex;
+            flex-direction: column; /* Display items in a row */
+            gap: 20px; /* Adjust gap between footer sections */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+        }
+
+        /* Place Support beside Product */
+        .footer .contain .col {
+            width: auto; /* Allow columns to take auto width */
+        }
+    }
+
+
+    /* Additional adjustments for very small screens */
+    @media (max-width: 500px) {
+        .carousel-button {
+            font-size: 3rem; /* Adjust carousel button size */
+        }
+
+        .btn {
+            padding: 8px 16px; /* Further adjust button padding */
+            font-size: 0.7rem; /* Further adjust button font size */
+        }
+    }
+
+    /* Adjustments for footer columns on very small screens */
+    @media (max-width: 340px) {
+        .footer .col {
+            width: 100%; /* Full width for footer columns */
+        }
+    }
+}

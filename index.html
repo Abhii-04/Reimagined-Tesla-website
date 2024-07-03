@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./responsive.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-
-            <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <title>TESLA CLONE</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./responsive.css">
+<link rel="stylesheet" href="./buttons.css">
 
 </head>
-
 <body>
+
+
+
+
+
+
   <!--navbar-->
-  <nav class="navbar glass" style="height: 70px">
+  <nav class="active navbar glass" style="height: 70px">
     <span>
         <a href="#home" style="display: flex; align-items: center">
             <h1 class="logo">&nbsp;T&#9776;SLA</h1></a>
@@ -27,179 +29,265 @@
         <li>
             <a href="#home" id="pri" class="active cir_border">Home</a>
         </li>
-        <li><a href="#events" id="sec" class="cir_border">Vehicles</a></li>
+        <li><a href="#Vehicles" id="sec" class="cir_border">Vehicles</a></li>
         
-        <li><a href="#about" id="quint" class="cir_border">Shop</a></li>
+        <li><a href="#Shop" id="quint" class="cir_border">Shop</a></li>
         <li>
-            <a href="contact.html" id="hept" class="cir_border">Contact</a>
+            <a href="#Contact" id="hept" class="cir_border">Contact</a>
         </li>
         <li>
-            <div>
-                <label for="checkbox" class="label">
-                    <i class="fa fa-moon-o"></i>
-                    <i class="fa fa-sun-o"></i>
-                    <div class="ball"></div>
-                </label>
-            </div>
+            
         </li>
     </ul>
-    <img src="./Public/menu-btn.png" alt="" class="menu-btn" />
+    <img src="./Public/Img/menu-btn.png" alt="" class="menu-btn" />
     </nav>
 
-    <section aria-label="Newest Photos">
-        <div class="carousel" data-carousel>
-          <!-- <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-          <button class="carousel-button next" data-carousel-button="next">&#8658;</button> -->
-          <ul data-slides>
-            <li class="slide" data-active>
-              <img src="./Public/CyberTruck/tesla-gallery-cybertruck/Cybertruck_19.jpg" alt="#">
-            </li>
-            <li class="slide">
-              <img src="./Public/CyberTruck/tesla-gallery-cybertruck/Cybertruck_82.jpg" alt="#">
-            </li>
-            <li class="slide">
-              <img src="./Public/Roadster/tesla-gallery-roadster/0x0-Roadster_03.jpg" alt="#">
-            </li>
-            <li class="slide">
-                <img src="./Public/Roadster/tesla-gallery-roadster/0x0-Roadster_09.jpg" alt="#">
-            </li>
-            <li class="slide">
-                <img src="./Public/ModelX/tesla-gallery-model-3-performance/Model-3-Performance_58.jpg" alt="#">
-            </li>
-            <li class="slide">
-                <img src="./Public/ModelX/tesla-gallery-model-3-performance/Model-3-Performance_53.jpg" alt="#">
-              </li>
-          </ul>
-        </div>
-    </section>
-    <!-- <div class="vid">
-        <video src="./Public/Roadster/roadster-loop.mp4" autoplay muted loop></video>
-    </div> -->
-    <div class="container1 animated">
-        <div class="model animated">
-            <div class="explore">
-                <button class="btn">Explore</button>
-            </div>
-            <div>
-                <model-viewer src="./Public/Roadster/scene.gltf" alt="A 3D model of Roadster" auto-rotate camera-controls></model-viewer>
-            </div>
-        </div>
-        <div class="content animated">
-            <div class="description">
-                <div class="text">
-                    <h1>ROADSTER</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ducimus? Ab quisquam quod deserunt at quis porro. Repudiandae, odit eveniet!</p>
-                </div>
-                <div class="button">
-                    <button class="btn">Learn More</button>
-                    <button class="btn">Book Now</button>
-                </div>
-            </div>
-            <div class="img1">
-                <img src="./Public/Roadster/tesla-gallery-roadster/0x0-Roadster_04.jpg" alt="">
-            </div>
-        </div>
+
+
+
+
+
+
+
+
+
+<div class='owl-carousel Home' id='owlCarousel'>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/Cybertruck_19.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>Welcome</h3>
+      <h2>To The Future</h2>
+      <p>The Tesla Cybertruck, with its futuristic design and impressive specs, revolutionizes the electric vehicle market.</p>
     </div>
-    
-    <div class="container2 animated">
-        <div class="model2 animated">
-            <div>
-                <model-viewer src="./Public/ModelX/scene.gltf" alt="A 3D model of Roadster" auto-rotate
-                    camera-controls></model-viewer>
-            </div>
-        </div>
-        <div class="content2 animated">
-            <div class="description">
-                <div class="text">
-
-                    <h1>MODEL-Y</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, ducimus? Ab quisquam quod deserunt at
-                    quis porro. Repudiandae, odit eveniet!</p>
-                </div>
-                <div class="button">
-                    <button class="btn">Learn More</button>
-                    <button class="btn">Book Now</button>
-                </div>
-
-            </div>
-            <div class="img1">
-                <img src="./Public/ModelX/tesla-gallery-model-3-performance/Model-3-Performance_52.jpg" alt="">
-            </div>
-            
-        </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/Cybertruck_61.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>The Cybertruck</h3>
+      <h2>Revolutionary Design.</h2>
+      <p>The Tesla Cybertruck offers unparalleled durability, impressive performance, and a bold design for modern adventurers.</p>
     </div>
-    <div class="container3 animated">
-        <div class="model3 animated">
-            <div>
-                <model-viewer src="./Public/CyberTruck/scene.gltf" alt="A 3D model of Roadster" auto-rotate
-                    camera-controls></model-viewer>
-            </div>
-        </div>
-        <div class="content3 animated">
-            <div class="description">
-                <div class="text">
-
-                    <h1>CYBERTRUCK</h1>
-                    <br>
-                    <p>Built for any planet<br>
-Durable and rugged enough to go anywhere. Tackle anything with electronically adaptive air suspension that offers 12” of travel and 16” of clearance.</p>
-                </div>
-                <div class="button">
-                    <button class="btn">Learn More</button>
-                    <button class="btn">Book Now</button>
-                </div>
-
-            </div>
-            <div class="img1">
-                <img src="./Public/CyberTruck/tesla-gallery-cybertruck/Cybertruck_19.jpg" alt="">
-            </div>
-            
-        </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/0x0-Roadster_02.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>The Roadster</h3>
+      <h2>Silently Swift</h2>
+      <p>The Tesla Roadster redefines electric sports cars with its remarkable acceleration, top speed, and sleek, aerodynamic design.</p>
     </div>
-    <!-- ---Footer--- -->
-    
-      <div class="footer animated">
-      
-        <div class="contain">
-            <div class="footer-content">
-                <img src="./Public/580b585b2edbce24c47b2cc9.png" alt="Company Logo" class="footer-logo">
-                <input type="text" id="email-input" class="email-input" >
-                <button class="btn-subscribe">Subscribe</button>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/0x0-Roadster_08.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>Ultimate Electric Thrill</h3>
+      <h2>Unleashing Pure Power, Electrified Excellence</h2>
+      <p>Pushing boundaries with electrified excellence, the Tesla Roadster accelerates into unprecedented realms.</p>
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/Model-3-Performance_52.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>Model-3 Performance</h3>
+      <h2>Efficient Electric Elegance</h2>
+      <p>Streamlined design, electric power: Tesla Model 3 excels in efficiency, innovation, and sustainable performance.</p>
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/Model-3-Performance_96.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>Modern Electric Marvel</h3>
+      <h2>Revolutionary Electric Precision</h2>
+      <p>Tesla Model 3: Pioneering Efficiency, Performance, and Sustainable Technological Advancements.</p>
+    </div>
+  </div>
+  <div class='slide'>
+    <img class='owl-item-bg' src='./Public/Img/Cybertruck_62.jpg'>
+    <div class='slide-content'>
+      <div class='overlay'></div>
+      <h3>Powerful Innovative Distinctive</h3>
+      <h2>Unrivaled Toughness</h2>
+      <p>The Tesla Cybertruck combines futuristic design with unparalleled ruggedness and cutting-edge technology.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="Vehicles" id="Vehicles">
+  <div class="container1">
+      <div class="model">
+         
+          <div>
+              <model-viewer src="./Public/Models/Roadster/scene.gltf" alt="A 3D model of Roadster" auto-rotate camera-controls></model-viewer>
+          </div>
+      </div>
+      <div class="content">
+          <div class="description">
+              <div class="text">
+                  <h1>ROADSTER</h1>
+                  <p>The Tesla Roadster offers breathtaking speed, revolutionary electric power, and futuristic design, shattering boundaries and thrilling enthusiasts with an unparalleled driving experience.</p>
               </div>
-        <div class="col">
-            <h1>Products</h1>
-            <ul>
-              <li>About</li>
-              <li>Mission</li>
-              <li>Services</li>
-              <li>Social</li>
-              <li>Get in touch</li>
-            </ul>
-        </div>
-        <div class="col">
-          <h1>Support</h1>
-          <ul>
-            <li>Contact us</li>
-            <li>Web chat</li>
-            <li>Open ticket</li>
-          </ul>
-        </div>
-        <div class="col social">
-          <h1>Socials</h1>
-          <ul>
-            <li><img src="./Public/insta.png" width="32" style="width: 32px;"></li>
-            <li><img src="./Public/FB.png" width="32" style="width: 32px;"></li>
-            <li><img src="./Public/X.png" width="32" style="width: 32px;"></li>
-          </ul>
-        </div>
-      <div class="clearfix"></div>
+              <div class="button">
+                  <button class="btn">Learn More</button>
+                  <button class="btn">Book Now</button>
+              </div>
+          </div>
+          <div class="img1">
+              <img src="./Public/Img/0x0-Roadster_02.jpg" alt="">
+          </div>
       </div>
-      </div>
-      <!-- END OF FOOTER -->
-    
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-    <script src="./script.js"></script>
-</body>
+  </div>
 
+
+
+
+
+
+
+
+  
+  <div class="container2">
+      <div class="model2">
+          <div>
+              <model-viewer src="./Public/Models/ModelX/scene.gltf" alt="A 3D model of Roadster" auto-rotate
+                  camera-controls></model-viewer>
+          </div>
+      </div>
+      <div class="content2">
+          <div class="description">
+              <div class="text">
+
+                  <h1>MODEL-3</h1>
+                  <br>
+                  <p>TTHE TESLA MODEL 3 OFFERS EXHILARATING ACCELERATION, CUTTING-EDGE TECHNOLOGY, AND SLEEK DESIGN, 
+                    DELIVERING AN UNMATCHED DRIVING EXPERIENCE THAT REDEFINES MODERN ELECTRIC VEHICLES.</p>
+              </div>
+              <div class="button">
+                  <button class="btn">Learn More</button>
+                  <button class="btn">Book Now</button>
+              </div>
+
+          </div>
+          <div class="img1">
+              <img src="./Public/Img/Model-3-Performance_52.jpg" alt="">
+          </div>
+          
+      </div>
+  </div>
+
+
+
+
+
+
+  <div class="container3">
+      <div class="model3">
+          <div>
+              <model-viewer src="./Public/Models/CyberTruck/scene.gltf" alt="A 3D model of Roadster" auto-rotate
+                  camera-controls></model-viewer>
+          </div>
+      </div>
+      <div class="content3">
+          <div class="description">
+              <div class="text">
+
+                  <h1>CYBERTRUCK</h1>
+                  <br>
+                  <!-- <p>BUILT FOR ANY PLANET <br> -->
+                    <p>DURABLE AND RUGGED ENOUGH TO GO ANYWHERE. TACKLE ANYTHING WITH ELECTRONICALLY ADAPTIVE AIR SUSPENSION THAT OFFERS 12” OF TRAVEL AND 16” OF CLEARANCE</p>
+              </div>
+              <div class="button">
+                  <button class="btn">Learn More</button>
+                  <button class="btn">Book Now</button>
+              </div>
+
+          </div>
+          <div class="img1">
+              <img src="./Public/Img/Cybertruck_19.jpg" alt="">
+          </div>
+          
+      </div>
+  </div>
+</section>
+<!-- ---Footer--- -->
+    
+
+
+
+
+
+
+<section class="Contact" id="Contact">
+  <div class="footer">
+
+      <div class="contain">
+          <div class="footer-content">
+              <img src="./Public/Img/580b585b2edbce24c47b2cc9.png" alt="Company Logo" class="footer-logo">
+              <input type="text" id="email-input" class="email-input" >
+              <button class="btn-subscribe">Subscribe</button>
+            </div>
+      <div class="col">
+          <h1>Products</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+      </div>
+      <div class="col">
+        <h1>Support</h1>
+        <ul>
+          <li>Contact us</li>
+          <li>Web chat</li>
+          <li>Open ticket</li>
+        </ul>
+      </div>
+      <div class="col social">
+        <h1>Socials</h1>
+        <ul>
+          <li><img src="./Public/Img/insta.png" width="32" style="width: 32px;"></li>
+          <li><img src="./Public/Img/FB.png" width="32" style="width: 32px;"></li>
+          <li><img src="./Public/Img/X.png" width="32" style="width: 32px;"></li>
+        </ul>
+      </div>
+    <div class="clearfix"></div>
+    </div>
+    </div>
+</section>
+<!-- END OF FOOTER -->
+
+
+
+
+
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./Public/javascript/script.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<script src="./Public/javascript/script.js"></script>
+</body>
 </html>
+
+
+

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tesla Model P100D
+* source:	https://sketchfab.com/3d-models/tesla-model-p100d-26ef15adc5ee4d8bbcb4a4f95ca49168
+* author:	Ameer Studio (https://sketchfab.com/uchiha.321abc)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tesla Model P100D" (https://sketchfab.com/3d-models/tesla-model-p100d-26ef15adc5ee4d8bbcb4a4f95ca49168) by Ameer Studio (https://sketchfab.com/uchiha.321abc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
