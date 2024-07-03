@@ -515,54 +515,7 @@ header {
   max-height: 100%;
   object-fit: contain;
 }
-.custom-carousel {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
 
-.img-carousel ul {
-  display: flex;
-  transition: transform 0.5s ease;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.img-slide {
-  min-width: 100%;
-  height: 100%;
-}
-
-.img-carousel img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.img-carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.img-carousel-button.prev {
-  left: 10px;
-  top: 200px;
-  
-}
-
-.img-carousel-button.next {
-  right: 10px;
-  top: 200px;
-}
 
 model-viewer {
   width: 100%;
@@ -573,30 +526,33 @@ model-viewer {
 /* ---Container2--- */
 .container2 {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "content model";
+  height: calc(100vh - 60px); 
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  padding-top: 10px;
 }
 
 .model2 {
-  width: 100%;
-  height: auto;
+  grid-area: model;
+  background-color: #242121;
+  overflow: hidden; 
 }
 
-.content2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.content2{
+  grid-area: content;
+  background-color: #F0F0F0;
+  display: grid;
+  grid-template-areas: 
+      "text "
+      "img1 ";
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  overflow: hidden; 
 }
 
-.text2 {
-  text-align: center;
-}
-
-.img2 {
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
 
 /* ---Container3--- */
 .container3 {
