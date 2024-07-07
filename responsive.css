@@ -1,5 +1,18 @@
 /* mobile responsiveness design */
 @media screen and (max-width: 990px) {
+      .content {
+      
+          display: inline;
+        }
+      
+        .content2 {
+      
+          display: inline;
+        }
+      
+        .content3 {
+          display: inline;
+        }
   .contact_us {
     flex-direction: column;
     width: 100%;
@@ -11,6 +24,23 @@
   }
 }
 @media screen and (max-width: 1130px) {
+  .slide-content {
+    padding: 20px 0px;
+    height: auto;
+  }
+      .content {
+      
+          display: inline;
+        }
+      
+        .content2 {
+      
+          display: inline;
+        }
+      
+        .content3 {
+          display: inline;
+        }
   .menu-btn {
     display: block;
   }
@@ -60,6 +90,15 @@
       .owl-item-bg {
           object-fit: cover;
         }
+                .content {
+
+                  display:inline; }
+                .content2 {
+
+                  display: inline; }
+        
+                .content3 {
+                  display: inline; }
 
     .slide>img{
         height: 300px; /* Adjust height dynamically */
@@ -68,6 +107,19 @@
     }
 
     @media only screen and (max-width: 767px) {
+          .content {
+          
+              display: inline;
+            }
+          
+            .content2 {
+          
+              display: inline;
+            }
+          
+            .content3 {
+              display: inline;
+            }
         /* For Container 1 */
         .container1 {
           display: grid;
@@ -80,11 +132,7 @@
           height: auto;
         }
       
-        .content {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+
       
         .text {
           text-align: center;
@@ -108,11 +156,7 @@
           height: auto;
         }
       
-        .content2 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+
       
         .text2 {
           text-align: center;
@@ -136,11 +180,7 @@
           height: auto;
         }
       
-        .content3 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+
         .text3 {
             text-align: center;
           }
@@ -169,6 +209,19 @@
 
     /* Adjustments for screens smaller than 768px */
     @media (max-width: 768px) {
+          .content {
+          
+              display: inline;
+            }
+          
+            .content2 {
+          
+              display: inline;
+            }
+          
+            .content3 {
+              display: inline;
+            }
         .footer {
             flex-direction: column; /* Stack footer items in a column */
         }
@@ -186,7 +239,12 @@
             width: auto; /* Allow columns to take auto width */
         }
     }
+@media (max-width:1060px) {
 
+  .sc3,
+  .sc5 {
+    display: none;
+  }}
 
     /* Additional adjustments for very small screens */
     @media (max-width: 500px) {
