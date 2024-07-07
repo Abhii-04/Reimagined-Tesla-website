@@ -1,0 +1,85 @@
+@media (max-width: 600px) {
+  .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar .nav-links li {
+    margin: 10px 0;
+}
+
+.hamburger {
+    display: block;
+    
+}
+
+.navbar .nav-links.active {
+    display: flex;
+}
+/* ----Carousel--- */
+.sc3,
+.sc5{
+  display: none;
+}
+.slide-content{
+  object-fit: contain;
+  width: 50vw;
+  height: 40vh;
+}
+.slide-content h3{
+  font-size: 0.2 rem;
+  object-fit: contain;
+}
+.slide-content p{
+  display: none;
+}
+
+
+/*--- Containers--- */
+.container1, .container2, .container3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50vh 50vh;
+  grid-template-areas: 
+      "content"
+      "model";
+  height: 100vh;
+  width: 100vw;                 
+}
+
+.model1, .model2, .model3 {
+  grid-area: model;
+  height: 50vh;
+  width: 100vw;
+}
+
+model-viewer {
+  width: 100%;
+  height: 50vh; 
+  object-fit: cover;
+}
+
+.description {
+  grid-area: content;
+  height: 100%;
+  width: 100vw;
+  padding-bottom: 30px;
+}
+
+.text {
+  margin: 0px;
+  padding: 10px;
+}
+
+
+}
+  
